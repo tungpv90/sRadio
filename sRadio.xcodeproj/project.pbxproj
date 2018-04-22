@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65A60BB208C16160015064F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A60BA208C16160015064F /* AppDelegate.swift */; };
+		A65A60BD208C16160015064F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A60BC208C16160015064F /* ViewController.swift */; };
+		A65A60C0208C16160015064F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65A60BE208C16160015064F /* Main.storyboard */; };
+		A65A60C3208C16160015064F /* sRadio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A65A60C1208C16160015064F /* sRadio.xcdatamodeld */; };
+		A65A60C5208C16170015064F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65A60C4208C16170015064F /* Assets.xcassets */; };
+		A65A60C8208C16170015064F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65A60C6208C16170015064F /* LaunchScreen.storyboard */; };
+		A65A60D3208C16180015064F /* sRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A60D2208C16170015064F /* sRadioTests.swift */; };
+		A65A60DE208C16180015064F /* sRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A60DD208C16180015064F /* sRadioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A65A60CF208C16170015064F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65A60AF208C16160015064F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65A60B6208C16160015064F;
+			remoteInfo = sRadio;
+		};
+		A65A60DA208C16180015064F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65A60AF208C16160015064F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65A60B6208C16160015064F;
+			remoteInfo = sRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A65A60B7208C16160015064F /* sRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65A60BA208C16160015064F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A65A60BC208C16160015064F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A65A60BF208C16160015064F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A65A60C2208C16160015064F /* sRadio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sRadio.xcdatamodel; sourceTree = "<group>"; };
+		A65A60C4208C16170015064F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A65A60C7208C16170015064F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A65A60C9208C16170015064F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65A60CE208C16170015064F /* sRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65A60D2208C16170015064F /* sRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sRadioTests.swift; sourceTree = "<group>"; };
+		A65A60D4208C16180015064F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65A60D9208C16180015064F /* sRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65A60DD208C16180015064F /* sRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sRadioUITests.swift; sourceTree = "<group>"; };
+		A65A60DF208C16180015064F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A65A60B4208C16160015064F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65A60CB208C16170015064F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65A60D6208C16180015064F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A65A60AE208C16160015064F = {
+			isa = PBXGroup;
+			children = (
+				A65A60B9208C16160015064F /* sRadio */,
+				A65A60D1208C16170015064F /* sRadioTests */,
+				A65A60DC208C16180015064F /* sRadioUITests */,
+				A65A60B8208C16160015064F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A65A60B8208C16160015064F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A65A60B7208C16160015064F /* sRadio.app */,
+				A65A60CE208C16170015064F /* sRadioTests.xctest */,
+				A65A60D9208C16180015064F /* sRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A65A60B9208C16160015064F /* sRadio */ = {
+			isa = PBXGroup;
+			children = (
+				A65A60BA208C16160015064F /* AppDelegate.swift */,
+				A65A60BC208C16160015064F /* ViewController.swift */,
+				A65A60BE208C16160015064F /* Main.storyboard */,
+				A65A60C4208C16170015064F /* Assets.xcassets */,
+				A65A60C6208C16170015064F /* LaunchScreen.storyboard */,
+				A65A60C9208C16170015064F /* Info.plist */,
+				A65A60C1208C16160015064F /* sRadio.xcdatamodeld */,
+			);
+			path = sRadio;
+			sourceTree = "<group>";
+		};
+		A65A60D1208C16170015064F /* sRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				A65A60D2208C16170015064F /* sRadioTests.swift */,
+				A65A60D4208C16180015064F /* Info.plist */,
+			);
+			path = sRadioTests;
+			sourceTree = "<group>";
+		};
+		A65A60DC208C16180015064F /* sRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A65A60DD208C16180015064F /* sRadioUITests.swift */,
+				A65A60DF208C16180015064F /* Info.plist */,
+			);
+			path = sRadioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A65A60B6208C16160015064F /* sRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65A60E2208C16180015064F /* Build configuration list for PBXNativeTarget "sRadio" */;
+			buildPhases = (
+				A65A60B3208C16160015064F /* Sources */,
+				A65A60B4208C16160015064F /* Frameworks */,
+				A65A60B5208C16160015064F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sRadio;
+			productName = sRadio;
+			productReference = A65A60B7208C16160015064F /* sRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A65A60CD208C16170015064F /* sRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65A60E5208C16180015064F /* Build configuration list for PBXNativeTarget "sRadioTests" */;
+			buildPhases = (
+				A65A60CA208C16170015064F /* Sources */,
+				A65A60CB208C16170015064F /* Frameworks */,
+				A65A60CC208C16170015064F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65A60D0208C16170015064F /* PBXTargetDependency */,
+			);
+			name = sRadioTests;
+			productName = sRadioTests;
+			productReference = A65A60CE208C16170015064F /* sRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A65A60D8208C16180015064F /* sRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65A60E8208C16180015064F /* Build configuration list for PBXNativeTarget "sRadioUITests" */;
+			buildPhases = (
+				A65A60D5208C16180015064F /* Sources */,
+				A65A60D6208C16180015064F /* Frameworks */,
+				A65A60D7208C16180015064F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65A60DB208C16180015064F /* PBXTargetDependency */,
+			);
+			name = sRadioUITests;
+			productName = sRadioUITests;
+			productReference = A65A60D9208C16180015064F /* sRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A65A60AF208C16160015064F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SaolaStudio;
+				TargetAttributes = {
+					A65A60B6208C16160015064F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A65A60CD208C16170015064F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A65A60B6208C16160015064F;
+					};
+					A65A60D8208C16180015064F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A65A60B6208C16160015064F;
+					};
+				};
+			};
+			buildConfigurationList = A65A60B2208C16160015064F /* Build configuration list for PBXProject "sRadio" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A65A60AE208C16160015064F;
+			productRefGroup = A65A60B8208C16160015064F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A65A60B6208C16160015064F /* sRadio */,
+				A65A60CD208C16170015064F /* sRadioTests */,
+				A65A60D8208C16180015064F /* sRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A65A60B5208C16160015064F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65A60C8208C16170015064F /* LaunchScreen.storyboard in Resources */,
+				A65A60C5208C16170015064F /* Assets.xcassets in Resources */,
+				A65A60C0208C16160015064F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65A60CC208C16170015064F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65A60D7208C16180015064F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A65A60B3208C16160015064F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65A60C3208C16160015064F /* sRadio.xcdatamodeld in Sources */,
+				A65A60BD208C16160015064F /* ViewController.swift in Sources */,
+				A65A60BB208C16160015064F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65A60CA208C16170015064F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65A60D3208C16180015064F /* sRadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65A60D5208C16180015064F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65A60DE208C16180015064F /* sRadioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A65A60D0208C16170015064F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65A60B6208C16160015064F /* sRadio */;
+			targetProxy = A65A60CF208C16170015064F /* PBXContainerItemProxy */;
+		};
+		A65A60DB208C16180015064F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65A60B6208C16160015064F /* sRadio */;
+			targetProxy = A65A60DA208C16180015064F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A65A60BE208C16160015064F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65A60BF208C16160015064F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A65A60C6208C16170015064F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65A60C7208C16170015064F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A65A60E0208C16180015064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A65A60E1208C16180015064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A65A60E3208C16180015064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CB46P5Q6K;
+				INFOPLIST_FILE = sRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SaolaStudio.sRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A65A60E4208C16180015064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CB46P5Q6K;
+				INFOPLIST_FILE = sRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SaolaStudio.sRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A65A60E6208C16180015064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CB46P5Q6K;
+				INFOPLIST_FILE = sRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SaolaStudio.sRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sRadio.app/sRadio";
+			};
+			name = Debug;
+		};
+		A65A60E7208C16180015064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CB46P5Q6K;
+				INFOPLIST_FILE = sRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SaolaStudio.sRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sRadio.app/sRadio";
+			};
+			name = Release;
+		};
+		A65A60E9208C16180015064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CB46P5Q6K;
+				INFOPLIST_FILE = sRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SaolaStudio.sRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sRadio;
+			};
+			name = Debug;
+		};
+		A65A60EA208C16180015064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CB46P5Q6K;
+				INFOPLIST_FILE = sRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SaolaStudio.sRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sRadio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A65A60B2208C16160015064F /* Build configuration list for PBXProject "sRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65A60E0208C16180015064F /* Debug */,
+				A65A60E1208C16180015064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65A60E2208C16180015064F /* Build configuration list for PBXNativeTarget "sRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65A60E3208C16180015064F /* Debug */,
+				A65A60E4208C16180015064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65A60E5208C16180015064F /* Build configuration list for PBXNativeTarget "sRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65A60E6208C16180015064F /* Debug */,
+				A65A60E7208C16180015064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65A60E8208C16180015064F /* Build configuration list for PBXNativeTarget "sRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65A60E9208C16180015064F /* Debug */,
+				A65A60EA208C16180015064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A65A60C1208C16160015064F /* sRadio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A65A60C2208C16160015064F /* sRadio.xcdatamodel */,
+			);
+			currentVersion = A65A60C2208C16160015064F /* sRadio.xcdatamodel */;
+			path = sRadio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A65A60AF208C16160015064F /* Project object */;
+}
